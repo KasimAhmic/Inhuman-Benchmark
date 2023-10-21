@@ -46,7 +46,6 @@
   /** @type {Map<string, { main: () => void, cleanup: () => void }>} */
   const scriptMap = new Map();
 
-  scriptMap.set('Run Reaction Time Script', runReactionTimeScript);
   scriptMap.set('Run Sequence Memory Script', runSequenceMemoryScript);
   scriptMap.set('Run Chimp Test Script', runChimpTestScript);
   scriptMap.set('Run Aim Trainer Script', runAimTrainerScript);
